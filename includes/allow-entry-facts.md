@@ -12,7 +12,7 @@ search.appverid: met150
 ---
 
 > [!TIP]
-> Allow entries from submissions are added during mail flow based on the filters that determined the message was malicious. For example, if the sender email address and a URL in the message are determined to be malicious, an allow entry is created for the sender (email address or domain) and the URL.
+> Allow and block entries from submissions are added during mail flow based on the filters that determined the message was malicious. For example, if the sender email address and a URL in the message are determined to be malicious, a block entry is created for the sender (email address or domain) and the URL.
 >
 > During mail flow or time of click, if messages containing the entities in the allow entries pass other checks in the filtering stack, the messages are delivered (all filters associated with the allowed entities are skipped). For example, if a message passes [email authentication checks](../defender-office-365/email-authentication-about.md), URL filtering, and file filtering, a message from an allowed sender email address is delivered if it's also from an allowed sender.
 >
